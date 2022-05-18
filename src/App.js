@@ -21,7 +21,7 @@ function App() {
 function Home() {
   return(
   <div>
-    <div className="card alert-danger">
+    <div className="card alert-danger my-3">
       <div className="card-header">
         <b>WARNING</b>
       </div>
@@ -31,8 +31,10 @@ function Home() {
         <p>Perpetrators will be tracked, located and detained.</p>
       </div>
     </div>
-    <br/>
-
+    <div className="card card-body bg-white rounded my-3">
+        <h3>Welcome authorized users, to the SCP Foundation Official Website</h3>
+        <p>Navigate to the SCP page to view information about the SCPs.</p>
+    </div>
   </div>
   )
 }

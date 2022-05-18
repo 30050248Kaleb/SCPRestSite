@@ -13,7 +13,6 @@ function Nav()
                     <li className="nav-link text-white">SCPs</li>
                 </Link>
             </ul>
-            <br></br>
         </nav>
     );
 }
