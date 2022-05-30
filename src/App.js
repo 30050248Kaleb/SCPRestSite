@@ -1,6 +1,6 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Nav from './Nav';
-import Data from './Data';
+import SCPs from './SCPs';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Data" element={<Data />} />
+          <Route path="/SCPs" element={<SCPs />} />
         </Routes>
       </Router>
     </div>
@@ -21,7 +21,7 @@ function App() {
 function Home() {
   return(
   <div>
-    <div className="card alert-danger my-3">
+    <div className="card alert-danger">
       <div className="card-header">
         <b>WARNING</b>
       </div>
@@ -31,7 +31,7 @@ function Home() {
         <p>Perpetrators will be tracked, located and detained.</p>
       </div>
     </div>
-    <div className="card card-body bg-white rounded my-3">
+    <div className="card card-body bg-dark text-light rounded my-3">
         <h3>Welcome authorized users, to the SCP Foundation Official Website</h3>
         <img src="favicon.png" width={"100px"}/>
         <p>Navigate to the SCP page to view information about the SCPs.</p>
