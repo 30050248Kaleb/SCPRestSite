@@ -32,9 +32,9 @@ function Home() {
       </div>
     </div>
     <div className="card card-body bg-dark text-light rounded my-3">
+        <img className="rounded mx-auto d-block" src="images/website/scp_homepage_logo.png" />
         <h3>Welcome authorized users, to the SCP Foundation Official Website</h3>
-        <img src="favicon.png" width={"100px"}/>
-        <p>Navigate to the SCP page to view information about the SCPs.</p>
+        <p>Navigate to the <a href="/SCPs">SCP page</a> to view information about the SCPs.</p>
     </div>
   </div>
   )
