@@ -18,7 +18,7 @@ function SCPs()
         }
       });
   
-      xhr.open("GET", "https://project-c7cb.restdb.io/rest/scpitems");
+      xhr.open("GET", "https://project-c7cb.restdb.io/rest/scps-new");
       xhr.setRequestHeader("content-type", "application/json");
       xhr.setRequestHeader("x-apikey", "628ae5af4cca5010d1293f3a");
       xhr.setRequestHeader("cache-control", "no-cache");
